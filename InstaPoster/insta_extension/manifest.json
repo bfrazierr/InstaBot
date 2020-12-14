@@ -1,0 +1,33 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "js/jquery.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "img/upload_16.png"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "css/content.css", "css/croppie.css" ],
+      "js": [ "js/jquery.js", "js/croppie.min.js", "js/content.js" ],
+      "matches": [ "*://*.instagram.com/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "default_locale": "en",
+   "description": "__MSG_extDescription__",
+   "icons": {
+      "128": "img/upload_128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqzL8/8gyUNLw8gTMaTlo21m8D0YRRW1j7/MdHI1CfNJg47OyrZ7eKjFVmQfmZTM1z+TLS9XYeyMs3gLpgCL8Oz24v8W/oCncr+LWT4VeiiotWv1KSL+M93CF5vem/VDJ396b7q4t3FceRnpU9UHOA5VGUtenl85NNCTpihM94lXEngIBbs6iQLJVV16/GoFMDaW01ergx32+SwzEcvPkehDQICHYW7p95wr0/LHjqFoQHYmRlBipWVw1W9Zq1NpHgnSAPJsOpm5SeIhMotfvt2H/J+TqfuHz9w+Y9Jgv8nG/69JGvrRLsZOviei8wcSxA4ivIByKPsAqMRF1ZJNkCwIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "40",
+   "name": "__MSG_extName__",
+   "options_page": "options.html",
+   "permissions": [ "storage", "tabs", "\u003Call_urls>", "cookies", "webRequest", "webRequestBlocking" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.4.8",
+   "web_accessible_resources": [ "css/*", "img/*" ]
+}

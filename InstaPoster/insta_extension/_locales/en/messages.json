@@ -1,0 +1,95 @@
+{
+   "are_you_sure_delete": {
+      "message": "Are you sure you want to delete this post?"
+   },
+   "btn_cancel": {
+      "message": "Cancel"
+   },
+   "btn_continue": {
+      "message": "Continue"
+   },
+   "check_network": {
+      "message": "Check your Internet connection and try again"
+   },
+   "close": {
+      "message": "Close"
+   },
+   "delete": {
+      "message": "Delete"
+   },
+   "delete_error": {
+      "message": "Delete Error"
+   },
+   "enter_search_query": {
+      "message": "Enter search query"
+   },
+   "error403_possible_reasons": {
+      "message": "Possible reasons"
+   },
+   "error403_reason_1": {
+      "message": "Instagram server says \"Unathorized\". Try to relogin to your instagram account."
+   },
+   "error403_reason_2": {
+      "message": "Conflict with another extension. Turn off other extensions and try again."
+   },
+   "error_network": {
+      "message": "Error Network"
+   },
+   "error_reason_xz": {
+      "message": "Try again"
+   },
+   "extDescription": {
+      "message": "This extension allows uploading photo to Instagram™ feed and stories from desktop"
+   },
+   "extName": {
+      "message": "Upload photo to Instagram™"
+   },
+   "lang": {
+      "message": "en"
+   },
+   "new_post": {
+      "message": "New Post"
+   },
+   "new_story": {
+      "message": "New Story"
+   },
+   "next": {
+      "message": "Next"
+   },
+   "no": {
+      "message": "No"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "send": {
+      "message": "Send"
+   },
+   "story_is_added": {
+      "message": "Story is added successfully"
+   },
+   "tag_people": {
+      "message": "Tag People"
+   },
+   "tag_people_confirm": {
+      "message": "Confirm"
+   },
+   "tag_people_msg": {
+      "message": "Click photo to tag people"
+   },
+   "upload_error": {
+      "message": "Upload Error"
+   },
+   "upload_file": {
+      "message": "Upload photo"
+   },
+   "upload_to_profile": {
+      "message": "Add to Profile"
+   },
+   "upload_to_stories": {
+      "message": "Add to Stories"
+   },
+   "write_caption": {
+      "message": "Enter caption... (max 2000 characters)"
+   }
+}

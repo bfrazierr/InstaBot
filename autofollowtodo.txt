@@ -1,0 +1,2 @@
+Auto follower
+- Follows and unfollows accounts automatically for growth

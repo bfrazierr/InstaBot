@@ -1,0 +1,7 @@
+.action-btns{
+    display: flex;
+}
+
+.edit-btn{
+    margin-right: 5px;
+}
